@@ -60,8 +60,218 @@ background-size: cover;
 font-family: Arial, Helvetica, sans-serif;
 font-size: 36px;
 }
+
+header{ 
+	color:white ;
+/*positioning*/ 
+position:absolute;
+background-color: none;
+width: 100%;
+text-align:center;
+}
+.centered{
+	position:absolute;
+	top: 50%;
+	left:50%;
+	transform: translate(-50%, -50%);
+
+}
+a{
+	display: inline-block;
+	font-size: 25px;
+	color:black;
+	text-decoration: none;
+}
+
 .container{
-    width: 1025px;
+	width: 1124px;
+	position: relative;
+	margin: 0 auto;
     background-color: #d4e9e7;
-    margin: 0 auto;
+	top: 450px;
+	padding-right: 50px;
+	padding-left: 50px;
+	
+
+
+}
+.container-2{
+	width: 1224px;
+	position: relative;
+	margin: 0 auto;
+    background-color: #d4e9e7;
+	padding-bottom: 50px;	
+}
+h1{
+	color: black;
+	text-align: left;
+	padding: 50px;
+	font-size: 30px;
+	left: 895px;
+	right: 380px;
+}
+
+.information{
+	padding: 10px;
+	font-size: 15px;
+
+}
+
+h2{
+text-align: left;
+font-size: 25px;
+padding: 30px;
+position: absolute;
+left: 5px;
+top: 20px;
+}
+
+
+.img-one{ 
+	width: 100%;
+}
+
+/*NAVIGATION menu*/
+
+nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	color: black;
+	border-style:none ;
+}
+
+nav li{
+	display: inline;
+margin:auto;
+padding: 100px;
+border-style: none;
+
+}
+
+
+article{
+	background-color: #d4e9e7;
+	/* padding-right: 50px;
+	padding-left: 50px; */
+	font-size: 15pt;
+	/* margin-right: 416px;
+	margin-left: 416px; */
+	margin-bottom: 1000px;
+	text-align:justify;
+	/* padding: 5px; */
+	/* display: inline-block; */
+	position: absolute;
+	top: 382px;
+	/* width: 1024px;
+    margin: 0 auto; */
+}
+/* article.container{
+	width: 1024px;
+	display: inline-block;
+	margin: 0 auto;
+} */
+.information{
+	margin: auto;
+	font-size: 15px;
+	text-align: absolute;
+	display: inline-block;
+	padding-right: 100px;
+	margin-left:270px ;
+	position: relative;
+	top: 70px;
+	left: 35px;
+	line-height: 160%;
+}
+.main{
+	text-align: justify;
+}
+.small{
+	float: left;
+	position:absolute;
+	padding: 10px;
+	margin-right: 58px;
+	box-sizing:absolute;
+	width: 285px;
+	height: 285px;
+	top: 70px;
+
+}
+.points{
+list-style-type: circle;
+font-size: 15px;
+padding: 30px;
+margin-left: 15px;
+text-align: left;
+margin-top: 100px;
+line-height: 160%;
+}
+
+h3{
+	text-align: left;
+	position: absolute;
+	font-size: 25px;
+	margin-bottom: 200px;
+	margin-top: 100px;
+	left: 37px;
+
+
+}
+h4{
+	text-align:left;
+	font-size:25px;
+	position: relative;
+	margin-top: 2px;
+	padding: 1px;
+	left: auto;
+	background-color: #d4e9e7;
+}
+
+figure{
+	margin:auto;
+	position: relative;
+}
+input,
+label{
+	cursor: pointer;
+}
+
+label,
+small{
+	margin-top: 0.1em;
+}
+
+input[type=text], select, textarea{
+	width: 96%;
+	padding: 10px;
+	border: 1px solid #ccc;
+	border-radius: 1px;
+	resize:vertical;
+	position: relative;
+	left: 10px;
+}
+
+
+/* input [type="radio"]select, textarea { */
+/* height: 1.2rem; */
+/* width: 1.2rem;
+margin-right: 0.5rem;	
+} */
+
+.form-section {
+	padding: 2px;
+	border: 1px solid black;
+	margin: auto;
+}
+
+.button-div{
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.footer {
+	right: 10px;
+	padding: 50px;
+	margin-left: 80%;
+	width: 20%;
 }
